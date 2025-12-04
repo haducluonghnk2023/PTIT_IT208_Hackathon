@@ -380,7 +380,7 @@ def saveToFile():
                 writer.writeheader()
                 writer.writerows(productList)
             print(
-                f"Đã lưu {len(productList)} sản phẩm" +
+                f"Đã lưu {len(productList)} sản phẩm " +
                 f" vào file {DATA_CSV} thành công!")
         except Exception as e:
             print(f"Lỗi khi lưu file CSV: {e}")
@@ -390,7 +390,7 @@ def saveToFile():
             with open(DATA_JSON, mode="w", encoding="utf-8") as file:
                 json.dump(productList, file, ensure_ascii=False, indent=2)
             print(
-                f"Đã lưu {len(productList)} sản phẩm" +
+                f"Đã lưu {len(productList)} sản phẩm " +
                 f"vào file {DATA_JSON} thành công!")
         except Exception as e:
             print(f"Lỗi khi lưu file JSON: {e}")

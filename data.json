@@ -1,0 +1,18 @@
+[
+  {
+    "masp": "SP001",
+    "ten_sp": "Laptop Dell",
+    "gia_ban": 22500000,
+    "so_luong": 51,
+    "gia_tri_ton": 1147500000,
+    "trang_thai": "Khó bán"
+  },
+  {
+    "masp": "SP002",
+    "ten_sp": "Macbook",
+    "gia_ban": 12345000,
+    "so_luong": 11,
+    "gia_tri_ton": 135795000,
+    "trang_thai": "Bình thường"
+  }
+]
